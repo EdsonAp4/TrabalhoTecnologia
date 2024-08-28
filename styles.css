@@ -1,0 +1,75 @@
+body {
+
+    color: rgb(209, 209, 209);
+    background: rgb(26, 26, 26);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 80px;
+
+}
+
+header{
+
+    border-bottom: solid 2px rgb(42, 122, 228);
+    font-size: 32;
+    color: rgb(42, 122, 228);
+    display: flex;
+    justify-content: center;
+
+}
+
+img{
+
+    height: 300px;
+
+}
+
+.categoria-filmes, .categoria-musicas, .TitulosSeries{
+
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+
+}
+
+.categoria-filmes img,.categoria-musicas img, .TitulosSeries img{
+
+    opacity: 0.5;
+
+}.categoria-filmes img:hover,.categoria-musicas img:hover, .TitulosSeries img:hover{
+
+    opacity: 1;
+    border: dashed 1px rgb(42, 122, 228);
+    height: 350px;
+
+}
+
+section{
+
+    background-color: rgb(34, 34, 34);
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 15px;
+
+}
+
+p{
+
+    margin: 0px;
+    text-align: center;
+    color: rgb(42, 122, 228);
+    font-family: "Spicy Rice", serif;
+    font-size: 110%;
+    padding-bottom: 2px;
+    padding-top: 8px;;
+
+}
+
+h1, h2, h3{
+
+    margin: 0px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+
+}
